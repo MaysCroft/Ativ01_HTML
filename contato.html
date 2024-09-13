@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+</head>
+
+<body background = "img/pexels-pixabay-414727.jpg" alink = "gold" vlink = "white" link = "white">
+
+    <font face = "verdana, arial, times new roman" color = "white">
+
+    <table border = "1" align = "center" cellspacing = "5" cellpadding = "10" 
+     width = "1000" height = "100" bgcolor = "" background = "" bordercolor = "blue">
+        <tr>
+            <th colspan = "2"><h1> Computação Quântica </h1></th>
+            <th><h3><a href = "index.html" target = "_top" title = "Página Exemplo"> Home </a></h3></th>
+            <th><h3><a href = "sobre.html" target = "_top" title = "Página Exemplo"> Sobre </a></h3></th>
+            <th><h3><a href = "contato.html" target = "_top" title = "Página Exemplo"> Contato </a></h3></th>
+        </tr>
+    </table>
+    <br/>
+
+    <table width = "500" align = "center" bgcolor = "" background = "">
+    <tr><td>
+
+    <fieldset>
+        <legend><strong> Entre em Contato </strong></legend>
+
+        <p>
+            <font size = "1">
+            <font color = "red"> * </font> - Campos Obrigatórios
+            </font>
+        </p>
+
+        <form action = "" method = "post">
+            <label> Data do Contato: <font color  = "red">*</font> </label>
+            <input type = "date" name = "data_nasc" id = "data_nasc" 
+             min = "1900-01-01" max = "2006-06-25" required/>
+            <br/><br/>
+
+            <label> Nome: <font color  = "red">*</font> </label>
+            <input type = "text" name = "nome" id = "nome" maxlength = "80" size = "30"
+             placeholder = "Digite seu Nome" required/>
+            <br/> <br/>
+
+            <label> E-mail: <font color  = "red">*</font> </label>
+            <input type = "email" name = "mail" id = "mail" maxlength = "60" size = "30"
+             placeholder = "Digite seu E-mail" required/>
+            <br/><br/>
+
+            <label> Telefone: <font color  = "red">*</font> </label>
+            <input type = "tel" name = "fone" id = "fone" maxlength = "15" size = "30"
+             placeholder = "Digite seu Telefone" required/>
+            <br/><br/>
+
+            <label> Sexo: <font color  = "red">*</font> </label>
+            <br/>
+            <input type = "radio" name = "sexo" id = "sexo" value = "M" required/>
+            <label> Masculino </label>
+            <br/>
+            <input type = "radio" name = "sexo" id = "sexo" value = "F" required/>
+            <label> Feminino </label>
+            <br/>
+            <input type = "radio" name = "sexo" id = "sexo" value = "O" required/>
+            <label> Outro </label>
+            <br/>
+            <input type = "radio" name = "sexo" id = "sexo" value = "Not" required/>
+            <label> Não Informar </label>
+            <br/><br/>
+
+            <label> Cidade: <font color  = "red">*</font> </label>
+            <select name = "cidade" id = "cidade" required>
+                <option value = "" selected = "selected"> --- Selecione --- </option>
+                <option value = "NL"> Nova Lima </option>
+                <option value = "BH"> Belo Horizonte </option>
+                <option value = "BR"> Brumadinho </option>
+                <option value = "CA"> Caeté </option>
+                <option value = "IB"> Ibirité </option>
+            </select>
+            <br/><br/>
+
+            <label> Escolha uma cor: <font color  = "red">*</font> </label>
+            <input type = "color" id = "cor" name = "cor" value = "#000000" required>
+            <br/><br/>
+
+            <label> Sua Mensagem: <font color  = "red">*</font> </label>
+            <br/>
+            <textarea name = "coment" id = "coment" cols = "40" rows = "10"
+             maxlength = "200" placeholder = "....." required></textarea>
+            <br/><br/>
+
+            <input type = "submit" name = "enviar" id = "enviar" value = "ENVIAR">
+            <input type = "reset" name = "limpar" id = "limpar" value = "LIMPAR">
+        </form>
+    </fieldset>
+    </td></tr>
+    </table>
+
+    <p align = "center">
+        <audio controls autoplay loop>
+            <source src = "audio/Star Sea Dream.mp3" type = "audio/mp3"/>
+        </audio>
+    </p>
+
+    </font>    
+</body>
+</html>
